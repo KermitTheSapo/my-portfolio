@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+<!-- <h1 align="center">
+    <img alt="Week planning" title="#week-planning" src="./assets/imgs/readme/week-planning.png" />
+</h1> -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+   <a href="#"> my portfolio </a>
+</h1>
 
-## Available Scripts
+<h3 align="center">
+    Vai na Web final challenge
+</h3>
 
-In the project directory, you can run:
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/KermitTheSapo/my-portfolio">
 
-### `npm start`
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/KermitTheSapo/my-portfolio">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  <a href="https://github.com/KermitTheSapo/my-portfolio/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/KermitTheSapo/my-portfolio">
+  </a>
+    
+   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+   <a href="https://github.com/KermitTheSapo/my-portfolio/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/KermitTheSapo/my-portfolio?style=social">
+  </a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h4 align="center"> 
+	 Status: Doing
+</h4>
 
-### `npm test`
+<p align="center">
+ <a href="#about">About</a> •
+ <a href="#features">Features</a> •
+ <a href="#author">Author</a> • 
+ <a href="#user-content-license">License</a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+</p>
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## About
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+A website in portfolio format with my projects and information
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+<!-- ## Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [X] header
+    - [X] save and delete local Storage
+    - [X] timer
+- [ ] main
+    - [X] add activities menu
+    - [X] weeks menu
+    - [X] time column
+    - [X] activity column
+    - [X] delete activities
+    - [ ] when you have two activities a line appears -->
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Author
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<a href="#">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/74118301?v=4" width="100px;" alt="Kermit the Frog"/>
+<h2>Robert José</h2>
 
-## Learn More
+[![Linkedin Badge](https://img.shields.io/badge/-Robert-Jose?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/robertjosé/)](https://www.linkedin.com/in/robertjosé/) 
+[![Gmail Badge](https://img.shields.io/badge/-rjsf06@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tgmarinho@gmail.com)](mailto:rjsf06@gmail.com)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
 
-### Code Splitting
+This project is under the license [MIT](./LICENSE).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Made with love by Robert J. :)
