@@ -2,6 +2,12 @@ import styled from "styled-components";
 
 export const Section = styled.section`
     background-color: var(--projectsSection);
+    height: 93vh;
+`
+
+export const Titulo = styled.h1`
+    color: white;
+    font-size: 2.5rem;
 `
 export const Img = styled.img`
     width: 100%;
@@ -10,7 +16,9 @@ export const Img = styled.img`
 
 export const ProjectDiv = styled.div`
     width: 25%;
-    border: solid red; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 `
 
 export const SectionProjects = styled.section`
@@ -20,19 +28,55 @@ export const SectionProjects = styled.section`
     gap: 30px;
 `
 
-export const Titulo = styled.h3`
+export const Name = styled.h3`
     text-align: center;
     color: white;
-    font-size: 1.5rem;
+    font-size: 2rem;
 `
 export const DetalhesBtn = styled.button`
     background-color: black;
     color: white;
-    width: 100%;
     font-size: 1rem;
     cursor: pointer;
+    border-radius: 10px;
+    width: 25%;
+    height: 100%;
+`
+export const RepositoryBtn = styled.button`
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+`
+
+export const RepositoryLink = styled.a`
+    width: 25%;
+`
+export const DeployBtn = styled.button`
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+`
+
+export const DeployLink = styled.a`
+    width: 25%;
 `
 
 export const Paragraph = styled.p`
     color: white;
+    width: 90%;
+    align-self: center;
+`
+
+export const ButtonsDiv = styled.div`
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 `
