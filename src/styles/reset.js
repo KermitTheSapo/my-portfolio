@@ -17,5 +17,11 @@ export const GlobalStyle = createGlobalStyle`
         --button: #323736;
         --principal-color: #C3EEE4;
         --name: #454F41;
+        --homeSection: #8C9F9B;
+        --projectsSection: #2A3633;
+        --contactSection: #08211B;
+        --certificateSection: #244840;
+        --competencesSection: #14221F;
+        
     }
 `

@@ -1,9 +1,9 @@
 import React from "react"
-
+import * as S from "../styles/competenceStyle.js"
 export default function Competence(){
     return(
-        <div>
+        <S.Section>
             <h1>Competence</h1>
-        </div>
+        </S.Section>
     )
 }

@@ -1,9 +1,10 @@
 import React from "react"
+import * as S from "../styles/contactStyle.js"
 
 export default function Contact(){
     return(
-        <div>
+        <S.Section>
             <h1>Contact</h1>
-        </div>
+        </S.Section>
     )
 }

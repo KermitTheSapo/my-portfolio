@@ -1,9 +1,9 @@
 import React from "react"
-
+import * as S from "../styles/experienceStyle.js"
 export default function Experience(){
     return(
-        <div>
+        <S.Section>
             <h1>Experience</h1>
-        </div>
+        </S.Section>
     )
 }

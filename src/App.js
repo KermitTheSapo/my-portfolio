@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useState} from "react"
 import * as R from "react-router-dom"
 import Certificates from "./Components/certificates.js"
 import Competence from "./Components/competence.js"
@@ -13,6 +13,13 @@ import {GlobalStyle} from "./styles/reset.js"
 import Menu from "./assets/imgs/header/menu.svg"
 
 export default function App(){
+
+  const [open, setOpen] = useState(true)
+
+  const Modal = () => {
+    setOpen(!open)
+  }
+  
   return(
     <S.Header>
       <R.BrowserRouter>
@@ -24,7 +31,8 @@ export default function App(){
             <S.Borda></S.Borda>
             <S.Role>Desenvolvedor Front-end</S.Role>
           </S.Div>
-          <S.Nav>
+          {open &&
+            <S.Nav>
             <S.Ul>
               <S.LinkS to="/">Sobre Mim</S.LinkS>
               <S.LinkS to="/experience">Experiencia</S.LinkS>
@@ -33,11 +41,10 @@ export default function App(){
               <S.LinkS to="/certificates">Certificados</S.LinkS>
               <S.LinkS to="/contact">Contato</S.LinkS>
             </S.Ul>
-          </S.Nav>
+          </S.Nav>}
           <S.MenuDiv>
-            <S.ImgMenu onClick={() =>{
-              
-            }} src={Menu} alt="" />
+            <S.ImgMenu onClick={() => {Modal()}} src={Menu} alt="" />
+            
           </S.MenuDiv>
           <S.DivMode>
             <S.Moon src={Moon} alt="" />

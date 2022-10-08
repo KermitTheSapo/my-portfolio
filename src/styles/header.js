@@ -18,7 +18,13 @@ export const Div = styled.div`
     justify-content: space-evenly;
     width: 23%;
     height: 100%;
-    @media screen and (max-width: 600px){
+    @media screen and (max-width: 1440px){
+        width: 30%;
+    }
+    @media screen and (max-width: 1024px){
+        width: 35%;
+    }
+    @media screen and (max-width: 768px){
         width: 50%;
     }
 `
@@ -51,9 +57,10 @@ export const HeaderDiv = styled.div`
 export const Nav = styled.nav`
     width: 50%;
 
-    @media screen and (max-width: 600px){
-        display: none;
+    @media screen and (max-width: 768px){
+        
     }
+
 `
 
 export const Ul = styled.ul`
@@ -61,6 +68,16 @@ export const Ul = styled.ul`
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    @media screen and (max-width: 768px){
+        flex-direction: column;
+        position: absolute;
+        top: 7vh;
+        right: 0;
+        width: auto;
+        background-color: var(--principal-color);
+        gap: 10px;
+        z-index: 3;
+    }
 `
 
 export const LinkS = styled(Link)`
@@ -84,7 +101,10 @@ export const DivMode = styled.div`
     justify-content: space-evenly;
     align-items: center;
     margin-right: 50px;
-    @media screen and (max-width: 600px){
+    @media screen and (max-width: 1440px){
+        width: 8%;
+    }
+    @media screen and (max-width: 768px){
         display: none;
     }
 `
@@ -108,7 +128,7 @@ export const Language = styled.h3`
 `
 
 export const MenuDiv = styled.div`
-    @media screen and (min-width: 500px){
+    @media screen and (min-width: 769px){
         display: none;
     }
 

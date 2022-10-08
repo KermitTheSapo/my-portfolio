@@ -1,9 +1,9 @@
 import React from "react"
-
+import * as S from "../styles/certificatesStyle.js"
 export default function Certificates(){
     return(
-        <div>
+        <S.Section>
             <h1>Certificates</h1>
-        </div>
+        </S.Section>
     )
 }
