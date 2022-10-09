@@ -20,3 +20,7 @@ export const Form = styled.form`
 export const Paragraph = styled.p`
     color: white;
 `
+
+export const Input = styled.input`
+    
+`
