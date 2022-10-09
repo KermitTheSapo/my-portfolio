@@ -1,6 +1,7 @@
 import React, {useState} from "react"
 import * as S from "../styles/projectStyle.js"
 import weeklyPlanning from "../assets/imgs/projects/weekly-planning.png"
+import Footer from "../Components/footer.js"
 export default function Projects(){
 
     const [open, setOpen] = useState(false)
@@ -24,6 +25,7 @@ export default function Projects(){
                     {open && <S.Paragraph>A weekly planning website, which adds activities on selected day and time, excludes all activities, saves/recalls activities in localStorage.</S.Paragraph>}
                 </S.ProjectDiv>
             </S.SectionProjects>
+            <Footer />
         </S.Section>
     )
 }
