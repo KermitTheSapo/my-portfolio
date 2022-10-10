@@ -1,7 +1,3 @@
-<!-- <h1 align="center">
-    <img alt="Week planning" title="#week-planning" src="./assets/imgs/readme/week-planning.png" />
-</h1> -->
-
 <h1 align="center">
    <a href="#"> my portfolio </a>
 </h1>
@@ -43,18 +39,25 @@ A website in portfolio format with my projects and information
 
 ---
 
-<!-- ## Features
+## Features
 
-- [X] header
-    - [X] save and delete local Storage
-    - [X] timer
+- [ ] header
+    - [X] Router
+    - [X] Responsive
+    - [ ] Dark Mode
+    - [ ] Language Mode
+    - [X] menu hamburguer
 - [ ] main
-    - [X] add activities menu
-    - [X] weeks menu
-    - [X] time column
-    - [X] activity column
-    - [X] delete activities
-    - [ ] when you have two activities a line appears -->
+    - [X] About
+    - [ ] Experience
+    - [X] Projects
+    - [ ] Competence
+    - [X] Certificates
+    - [X] Contact
+    - [ ] Footer
+    - [ ] interactivity
+    - [ ] responsive design
+    
 
 ---
 
