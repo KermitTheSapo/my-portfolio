@@ -1,7 +1,7 @@
 import React from "react"
-import * as S from "../styles/homeStyle.js"
-import Mario from "../assets/imgs/home/mario.gif"
-import Footer from "../Components/footer.js"
+import * as S from "./homeStyle.js"
+import Mario from "../../assets/imgs/home/mario.gif"
+import Footer from "../footer/footer.js"
 
 
 export default function Home(){

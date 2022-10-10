@@ -1,6 +1,6 @@
 import React from "react"
-import * as S from "../styles/contactStyle.js"
-import Footer from "../Components/footer.js"
+import * as S from "./contactStyle.js"
+import Footer from "../footer/footer.js"
 
 export default function Contact(){
     return(

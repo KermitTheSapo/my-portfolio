@@ -1,8 +1,8 @@
 import React from "react";
-import * as S from "../styles/footerStyle.js";
-import Gmail from "../assets/imgs/footer/gmail.svg";
-import Github from "../assets/imgs/footer/github.svg";
-import Linkedin from "../assets/imgs/footer/linkedin.svg";
+import * as S from "./footerStyle.js";
+import Gmail from "../../assets/imgs/footer/gmail.svg";
+import Github from "../../assets/imgs/footer/github.svg";
+import Linkedin from "../../assets/imgs/footer/linkedin.svg";
     
 export default function Footer(){
     return(

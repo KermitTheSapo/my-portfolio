@@ -1,7 +1,7 @@
 import React, {useState} from "react"
-import * as S from "../styles/projectStyle.js"
-import weeklyPlanning from "../assets/imgs/projects/weekly-planning.png"
-import Footer from "../Components/footer.js"
+import * as S from "./projectStyle.js"
+import weeklyPlanning from "../../assets/imgs/projects/weekly-planning.png"
+import Footer from "../footer/footer.js"
 export default function Projects(){
 
     const [open, setOpen] = useState(false)

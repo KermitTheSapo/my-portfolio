@@ -1,7 +1,7 @@
 import React from "react"
-import * as S from "../styles/experienceStyle.js"
-import Compass from "../assets/imgs/experiences/compass.png"
-import Footer from "../Components/footer.js"
+import * as S from "./experienceStyle.js"
+import Compass from "../../assets/imgs/experiences/compass.png"
+import Footer from "../footer/footer.js"
 export default function Experience(){
     return(
         <S.Section>

@@ -1,6 +1,6 @@
 import React from "react"
-import * as S from "../styles/competenceStyle.js"
-import Footer from "../Components/footer.js"
+import * as S from "./competenceStyle.js"
+import Footer from "../footer/footer.js"
 export default function Competence(){
     return(
         <S.Section>

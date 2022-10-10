@@ -1,7 +1,7 @@
 import React from "react"
-import * as S from "../styles/certificatesStyle.js"
-import Alura from "../assets/imgs/certificates/alura.png"
-import Footer from "../Components/footer.js"
+import * as S from "./certificatesStyle.js"
+import Alura from "../../assets/imgs/certificates/alura.png"
+import Footer from "../footer/footer.js"
 export default function Certificates(){
     return(
         <S.Section>
