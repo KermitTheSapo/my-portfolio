@@ -22,6 +22,7 @@ export const GlobalStyle = createGlobalStyle`
         --contactSection: #08211B;
         --certificateSection: #244840;
         --competencesSection: #14221F;
+        --btn-send:#D9D9D9;
         
     }
 `

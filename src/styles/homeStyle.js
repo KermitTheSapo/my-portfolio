@@ -2,11 +2,11 @@ import styled from "styled-components";
 
 export const Section = styled.section`
     background-color: black;
-    height: 93vh;
     display: flex;
     align-items: center;   
     justify-content: center;
     flex-direction: column;
+    height: 93vh;
 `
 export const H2 = styled.h2`
     width: 410px;
@@ -50,8 +50,9 @@ export const MarioImg = styled.img`
     width: 100%;
 `
 
-export const Name = styled.h3`
+export const Name = styled.h1`
     color: white;
+    font-size: 3rem;
 `
 export const Course = styled.h3`
     color: white;

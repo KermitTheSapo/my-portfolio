@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Section = styled.section`
     background-color: var(--projectsSection);
-    height: 93vh;
 `
 
 export const Titulo = styled.h1`

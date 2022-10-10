@@ -24,6 +24,66 @@ export default function Projects(){
                     </S.ButtonsDiv>
                     {open && <S.Paragraph>A weekly planning website, which adds activities on selected day and time, excludes all activities, saves/recalls activities in localStorage.</S.Paragraph>}
                 </S.ProjectDiv>
+                <S.ProjectDiv>
+                    <S.Name>Weekly Planning</S.Name>
+                    <S.Img src={weeklyPlanning} alt="aaa" />
+                    <S.ButtonsDiv>
+                        <S.DetalhesBtn onClick={Modal}>&#10140; Mais Detalhes</S.DetalhesBtn>
+                        <S.RepositoryLink href="https://github.com/KermitTheSapo/compass-front-challenge-weekly-planning" target="_blank"><S.RepositoryBtn>Repository</S.RepositoryBtn></S.RepositoryLink>
+                        <S.DeployLink href="https://weekly-planning.netlify.app/" target="_blank"><S.DeployBtn>Deploy</S.DeployBtn></S.DeployLink>
+                    </S.ButtonsDiv>
+                    {open && <S.Paragraph>A weekly planning website, which adds activities on selected day and time, excludes all activities, saves/recalls activities in localStorage.</S.Paragraph>}
+                </S.ProjectDiv>
+                <S.ProjectDiv>
+                    <S.Name>Weekly Planning</S.Name>
+                    <S.Img src={weeklyPlanning} alt="aaa" />
+                    <S.ButtonsDiv>
+                        <S.DetalhesBtn onClick={Modal}>&#10140; Mais Detalhes</S.DetalhesBtn>
+                        <S.RepositoryLink href="https://github.com/KermitTheSapo/compass-front-challenge-weekly-planning" target="_blank"><S.RepositoryBtn>Repository</S.RepositoryBtn></S.RepositoryLink>
+                        <S.DeployLink href="https://weekly-planning.netlify.app/" target="_blank"><S.DeployBtn>Deploy</S.DeployBtn></S.DeployLink>
+                    </S.ButtonsDiv>
+                    {open && <S.Paragraph>A weekly planning website, which adds activities on selected day and time, excludes all activities, saves/recalls activities in localStorage.</S.Paragraph>}
+                </S.ProjectDiv>
+                <S.ProjectDiv>
+                    <S.Name>Weekly Planning</S.Name>
+                    <S.Img src={weeklyPlanning} alt="aaa" />
+                    <S.ButtonsDiv>
+                        <S.DetalhesBtn onClick={Modal}>&#10140; Mais Detalhes</S.DetalhesBtn>
+                        <S.RepositoryLink href="https://github.com/KermitTheSapo/compass-front-challenge-weekly-planning" target="_blank"><S.RepositoryBtn>Repository</S.RepositoryBtn></S.RepositoryLink>
+                        <S.DeployLink href="https://weekly-planning.netlify.app/" target="_blank"><S.DeployBtn>Deploy</S.DeployBtn></S.DeployLink>
+                    </S.ButtonsDiv>
+                    {open && <S.Paragraph>A weekly planning website, which adds activities on selected day and time, excludes all activities, saves/recalls activities in localStorage.</S.Paragraph>}
+                </S.ProjectDiv>
+                <S.ProjectDiv>
+                    <S.Name>Weekly Planning</S.Name>
+                    <S.Img src={weeklyPlanning} alt="aaa" />
+                    <S.ButtonsDiv>
+                        <S.DetalhesBtn onClick={Modal}>&#10140; Mais Detalhes</S.DetalhesBtn>
+                        <S.RepositoryLink href="https://github.com/KermitTheSapo/compass-front-challenge-weekly-planning" target="_blank"><S.RepositoryBtn>Repository</S.RepositoryBtn></S.RepositoryLink>
+                        <S.DeployLink href="https://weekly-planning.netlify.app/" target="_blank"><S.DeployBtn>Deploy</S.DeployBtn></S.DeployLink>
+                    </S.ButtonsDiv>
+                    {open && <S.Paragraph>A weekly planning website, which adds activities on selected day and time, excludes all activities, saves/recalls activities in localStorage.</S.Paragraph>}
+                </S.ProjectDiv>
+                <S.ProjectDiv>
+                    <S.Name>Weekly Planning</S.Name>
+                    <S.Img src={weeklyPlanning} alt="aaa" />
+                    <S.ButtonsDiv>
+                        <S.DetalhesBtn onClick={Modal}>&#10140; Mais Detalhes</S.DetalhesBtn>
+                        <S.RepositoryLink href="https://github.com/KermitTheSapo/compass-front-challenge-weekly-planning" target="_blank"><S.RepositoryBtn>Repository</S.RepositoryBtn></S.RepositoryLink>
+                        <S.DeployLink href="https://weekly-planning.netlify.app/" target="_blank"><S.DeployBtn>Deploy</S.DeployBtn></S.DeployLink>
+                    </S.ButtonsDiv>
+                    {open && <S.Paragraph>A weekly planning website, which adds activities on selected day and time, excludes all activities, saves/recalls activities in localStorage.</S.Paragraph>}
+                </S.ProjectDiv>
+                <S.ProjectDiv>
+                    <S.Name>Weekly Planning</S.Name>
+                    <S.Img src={weeklyPlanning} alt="aaa" />
+                    <S.ButtonsDiv>
+                        <S.DetalhesBtn onClick={Modal}>&#10140; Mais Detalhes</S.DetalhesBtn>
+                        <S.RepositoryLink href="https://github.com/KermitTheSapo/compass-front-challenge-weekly-planning" target="_blank"><S.RepositoryBtn>Repository</S.RepositoryBtn></S.RepositoryLink>
+                        <S.DeployLink href="https://weekly-planning.netlify.app/" target="_blank"><S.DeployBtn>Deploy</S.DeployBtn></S.DeployLink>
+                    </S.ButtonsDiv>
+                    {open && <S.Paragraph>A weekly planning website, which adds activities on selected day and time, excludes all activities, saves/recalls activities in localStorage.</S.Paragraph>}
+                </S.ProjectDiv>
             </S.SectionProjects>
             <Footer />
         </S.Section>

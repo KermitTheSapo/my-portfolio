@@ -13,7 +13,7 @@ export default function Home(){
                 <S.Course>Cursando Analise e desenvolvimento de sistemas na Uninassau (04/2022 - 04/2024)</S.Course>
                 <S.Job>Estagiário Front-end do Programa de Bolsas da Compass.uol</S.Job>
                 <S.Age>18 anos</S.Age>
-                <S.Localization>Paulista, Pernambuco, Brasil </S.Localization>                
+                <S.Localization>Paulista, Pernambuco, Brasil </S.Localization>              
             </S.Information>
             <S.Imgs>
                 <S.MarioImg src={Mario} alt="" />

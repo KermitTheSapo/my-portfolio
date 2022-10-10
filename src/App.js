@@ -11,7 +11,6 @@ import Moon from "./assets/imgs/header/moon.svg"
 import * as S from "./styles/header.js"
 import {GlobalStyle} from "./styles/reset.js"
 import Menu from "./assets/imgs/header/menu.svg"
-import {Helmet} from "react-helmet";
 
 
 export default function App(){
@@ -26,13 +25,6 @@ export default function App(){
     <S.Header>
       <R.BrowserRouter>
       <GlobalStyle/>
-        <div className="application">
-            <Helmet>
-                <meta charSet="utf-8" />
-                <title>Meu Portfolio :)</title>
-                <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-            </Helmet>
-        </div>
         <S.HeaderDiv>
           <S.Div>
             <S.Img src={Profile} alt="a" />

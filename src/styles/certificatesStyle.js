@@ -1,8 +1,13 @@
 import styled from "styled-components";
 
+export const H1 = styled.h1`
+    text-align: center;
+    font-size: 2.5rem;
+    color: #fff;
+` 
+
 export const Section = styled.section`
     background-color: var(--certificateSection);
-    height: 93vh;
 `
 
 export const AllCertificates = styled.div`
@@ -17,7 +22,6 @@ export const Certificate = styled.div`
     display: flex;
     gap: 20px;
     width: 30%;
-    border: solid;
 `
 
 export const FigureImg = styled.figure`
@@ -35,18 +39,18 @@ export const Information = styled.div`
     justify-content: space-evenly;
 `
 export const Title = styled.h2`
+color: white;
 `
 export const Company = styled.h3`
-
+color: white;
 `
 
 export const Date = styled.h4`
-
-`
-
-export const Code = styled.h5`
-
+color: white;
 `
 export const Btn = styled.button`
+    background-color: var(--btn-send);
+    border-radius: 5px;
+    cursor: pointer;
 
 `
