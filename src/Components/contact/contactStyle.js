@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const H1 = styled.h1`
     font-size: 2.5rem;
     color: #fff;
+    text-align: center;
 `
 
 export const Section = styled.section`
@@ -13,17 +14,25 @@ export const Section = styled.section`
     flex-direction: column;
 `
 
+export const Div = styled.div`
+    height: 88vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+`
+
 export const Form = styled.form`
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    width: 50%;
     height: 40vh;
 ` 
 
 export const Paragraph = styled.p`
     color: white;
+    text-align: center;
 `
 
 export const Input = styled.input`

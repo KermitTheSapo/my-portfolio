@@ -7,6 +7,7 @@ export const Section = styled.section`
 export const Titulo = styled.h1`
     color: white;
     font-size: 2.5rem;
+    text-align: center;
 `
 export const Img = styled.img`
     width: 100%;
