@@ -36,6 +36,7 @@ export const Information = styled.div`
     flex-direction: column;
     justify-content: space-evenly;
     height: 30%;
+    gap: 10px;
 `
 
 export const Imgs = styled.div`
@@ -66,4 +67,13 @@ export const Age = styled.h3`
 
 export const Localization = styled.h3`
     color: white;
+`
+export const Btn = styled.button`
+    width: 15%;
+    background-color:#D9D9D9;
+    border-radius: 10px;
+    color: black;
+    height: 4vh;
+    font-size: 1.5rem;
+    cursor: pointer;  
 `

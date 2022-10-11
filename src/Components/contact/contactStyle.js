@@ -28,6 +28,7 @@ export const Form = styled.form`
     align-items: center;
     justify-content: space-evenly;
     height: 40vh;
+    gap: 10px;
 ` 
 
 export const Paragraph = styled.p`
