@@ -8,7 +8,7 @@ export default function Competence(){
             <S.Div>
                 <S.H1>Competence</S.H1>
                 <S.Paragraph>Em Construção</S.Paragraph>
-                <img src={Construction} alt="" />
+                <S.Img src={Construction} alt="" />
             </S.Div>
             <Footer />
         </S.Section>

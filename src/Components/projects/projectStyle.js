@@ -17,7 +17,6 @@ export const Img = styled.img`
     min-width: 100%;
     max-width: 100%;
     object-fit: contain;
-
 `
 
 export const ProjectDiv = styled.div`
@@ -25,6 +24,9 @@ export const ProjectDiv = styled.div`
     display: flex;
     flex-direction: column;
     gap: 10px;
+    @media screen and (max-width: 500px){
+        width: 90%;
+    }
 `
 
 export const SectionProjects = styled.section`

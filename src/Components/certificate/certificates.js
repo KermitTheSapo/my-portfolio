@@ -6,7 +6,7 @@ import Footer from "../footer/footer.js"
 export default function Certificates(){
     return(
         <S.Section>
-            <S.H1>Certificates</S.H1>
+            <S.H1>Certificados</S.H1>
             <S.AllCertificates>
                 <S.Certificate>
                     <S.FigureImg>
@@ -204,6 +204,28 @@ export default function Certificates(){
                         <S.Company>Alura</S.Company>
                         <S.Date>Emitido em set de 2022 · Sem data de expiração</S.Date>
                         <a href="https://cursos.alura.com.br/certificate/891e7c4a-bcf9-4544-9dc9-edd15f15019c" rel="noreferrer"  target="_blank"><S.Btn>Exibir Certificado!</S.Btn></a>
+                    </S.Information>
+                </S.Certificate>
+                <S.Certificate>
+                    <S.FigureImg>
+                        <S.Img src={Alura} alt="" />
+                    </S.FigureImg>
+                    <S.Information>
+                        <S.Title>Web Design Responsivo: Páginas que se adaptam do mobile ao desk</S.Title>
+                        <S.Company>Alura</S.Company>
+                        <S.Date>Emitido em set de 2022 · Sem data de expiração</S.Date>
+                        <a href="https://cursos.alura.com.br/certificate/71078b3c-2a02-49bc-b6c2-a8364310634c" rel="noreferrer"  target="_blank"><S.Btn>Exibir Certificado!</S.Btn></a>
+                    </S.Information>
+                </S.Certificate>
+                <S.Certificate>
+                    <S.FigureImg>
+                        <S.Img src={Alura} alt="" />
+                    </S.FigureImg>
+                    <S.Information>
+                        <S.Title>Acessibilidade web: crie designs inclusivos</S.Title>
+                        <S.Company>Alura</S.Company>
+                        <S.Date>Emitido em ago de 2022 · Sem data de expiração</S.Date>
+                        <a href="https://cursos.alura.com.br/certificate/fda7b839-a5e0-4ccc-b7d8-be901c37d9ea" rel="noreferrer"  target="_blank"><S.Btn>Exibir Certificado!</S.Btn></a>
                     </S.Information>
                 </S.Certificate>
             </S.AllCertificates>

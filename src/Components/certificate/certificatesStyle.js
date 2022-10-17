@@ -16,12 +16,18 @@ export const AllCertificates = styled.div`
     justify-content: center;
     align-items: center;
     gap: 20px;
+    @media screen and (max-width: 500px){
+        width: 90%;
+    }
 `
 
 export const Certificate = styled.div`
     display: flex;
     gap: 20px;
     width: 30%;
+    @media screen and (max-width: 500px){
+        width: 90%;
+    }
 `
 
 export const FigureImg = styled.figure`

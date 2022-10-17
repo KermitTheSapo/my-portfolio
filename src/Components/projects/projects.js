@@ -14,6 +14,9 @@ import lolScreen from "../../assets/imgs/projects/lol-screen.png"
 import onboarding from "../../assets/imgs/projects/onboarding.png"
 import Recipes from "../../assets/imgs/projects/recipes.png"
 import TodoList from "../../assets/imgs/projects/todolist.png"
+import StarWars from "../../assets/imgs/projects/starWars.png"
+import Portflow from "../../assets/imgs/projects/portflow.png"
+import Crespos from "../../assets/imgs/projects/crespos.png"
 
 
 
@@ -188,6 +191,36 @@ export default function Projects(){
                         <S.DeployLink href="https://kermitthesapo.github.io/lol-client-login/" target="_blank"><S.DeployBtn>Deploy</S.DeployBtn></S.DeployLink>
                     </S.ButtonsDiv>
                     {open && <S.Paragraph>Recriando o login do client do lol</S.Paragraph>}
+                </S.ProjectDiv>
+                <S.ProjectDiv>
+                    <S.Name>Star Wars</S.Name>
+                    <S.Img src={StarWars} alt="aaa" />
+                    <S.ButtonsDiv>
+                        <S.DetalhesBtn onClick={Modal}>&#10140; Mais Detalhes</S.DetalhesBtn>
+                        <S.RepositoryLink href="https://github.com/KermitTheSapo/desafioFinal-vaiNaWeb-Star-Wars" target="_blank"><S.RepositoryBtn>Repository</S.RepositoryBtn></S.RepositoryLink>
+                        <S.DeployLink href="https://kermitthesapo.github.io/desafioFinal-vaiNaWeb-Star-Wars/" target="_blank"><S.DeployBtn>Deploy</S.DeployBtn></S.DeployLink>
+                    </S.ButtonsDiv>
+                    {open && <S.Paragraph>Recriando o site do jogo Star Wars</S.Paragraph>}
+                </S.ProjectDiv>
+                <S.ProjectDiv>
+                    <S.Name>Portflow</S.Name>
+                    <S.Img src={Portflow} alt="aaa" />
+                    <S.ButtonsDiv>
+                        <S.DetalhesBtn onClick={Modal}>&#10140; Mais Detalhes</S.DetalhesBtn>
+                        <S.RepositoryLink href="https://github.com/KermitTheSapo/Portflow-VnW" target="_blank"><S.RepositoryBtn>Repository</S.RepositoryBtn></S.RepositoryLink>
+                        <S.DeployLink href="https://kermitthesapo.github.io/Portflow-VnW/" target="_blank"><S.DeployBtn>Deploy</S.DeployBtn></S.DeployLink>
+                    </S.ButtonsDiv>
+                    {open && <S.Paragraph>Recriando o site do Portflow</S.Paragraph>}
+                </S.ProjectDiv>
+                <S.ProjectDiv>
+                    <S.Name>Crespos</S.Name>
+                    <S.Img src={Crespos} alt="aaa" />
+                    <S.ButtonsDiv>
+                        <S.DetalhesBtn onClick={Modal}>&#10140; Mais Detalhes</S.DetalhesBtn>
+                        <S.RepositoryLink href="https://github.com/KermitTheSapo/desafioFinal-vaiNaWeb-Crespos" target="_blank"><S.RepositoryBtn>Repository</S.RepositoryBtn></S.RepositoryLink>
+                        <S.DeployLink href="https://kermitthesapo.github.io/desafioFinal-vaiNaWeb-Crespos/" target="_blank"><S.DeployBtn>Deploy</S.DeployBtn></S.DeployLink>
+                    </S.ButtonsDiv>
+                    {open && <S.Paragraph>Recriando o site do Crespos</S.Paragraph>}
                 </S.ProjectDiv>
                 
             </S.SectionProjects>

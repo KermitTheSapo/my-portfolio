@@ -7,6 +7,7 @@ export const Section = styled.section`
     justify-content: center;
     flex-direction: column;
     height: 93vh;
+
 `
 export const H2 = styled.h2`
     width: 410px;
@@ -28,6 +29,10 @@ export const H2 = styled.h2`
             border-color: transparent;
         }   
     }
+    @media screen and (max-width: 500px){
+        width: 270px;
+        font-size: 1.3rem;
+    }
 `
 
 export const Information = styled.div`
@@ -37,6 +42,10 @@ export const Information = styled.div`
     justify-content: space-evenly;
     height: 30%;
     gap: 10px;
+    @media screen and (max-width: 500px){
+        height: 70%;
+        width: 90%;
+    }
 `
 
 export const Imgs = styled.div`
@@ -45,6 +54,9 @@ export const Imgs = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    @media screen and (max-width: 500px){
+        width: 90%;
+    }
 `
 
 export const MarioImg = styled.img`
@@ -76,4 +88,7 @@ export const Btn = styled.button`
     height: 4vh;
     font-size: 1.5rem;
     cursor: pointer;  
+    @media screen and (max-width: 500px){
+        width: 50%;
+    }
 `

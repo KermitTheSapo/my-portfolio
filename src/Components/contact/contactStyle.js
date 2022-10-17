@@ -20,6 +20,10 @@ export const Div = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    @media screen and (max-width: 500px){
+        height: 86.6vh;
+        width: 90%;
+    }
 `
 
 export const Form = styled.form`
@@ -42,6 +46,9 @@ export const Input = styled.input`
     border-radius: 10px;
     width: 50%;
     height: 5vh;
+    @media screen and (max-width: 500px){
+        width: 90%;
+    }
 `
 export const Textarea = styled.textarea`
     background-color: #D9D9D9;
@@ -49,6 +56,9 @@ export const Textarea = styled.textarea`
     border-radius: 10px;
     width: 50%;
     height: 10vh;
+    @media screen and (max-width: 500px){
+        width: 90%;
+    }
 
 `
 
@@ -67,4 +77,7 @@ export const Label = styled.label`
     width: 48%;
     color: white;
     font-weight: 700;
+    @media screen and (max-width: 500px){
+        width: 90%;
+    }
 `
