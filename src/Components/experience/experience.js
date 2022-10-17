@@ -5,7 +5,7 @@ import Footer from "../footer/footer.js"
 export default function Experience(){
     return(
         <S.Section>
-            <S.H1>Experience</S.H1>
+            <S.H1>Experiencia</S.H1>
             <S.ExperienceDiv>
                 <S.Experience>
                     <figure>

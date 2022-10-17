@@ -12,6 +12,12 @@ export const Titulo = styled.h1`
 export const Img = styled.img`
     width: 100%;
     border-radius: 10px;
+    min-height: 360px;
+    max-height: 360px;
+    min-width: 100%;
+    max-width: 100%;
+    object-fit: contain;
+
 `
 
 export const ProjectDiv = styled.div`
