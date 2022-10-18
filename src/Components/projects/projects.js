@@ -17,6 +17,7 @@ import TodoList from "../../assets/imgs/projects/todolist.png"
 import StarWars from "../../assets/imgs/projects/starWars.png"
 import Portflow from "../../assets/imgs/projects/portflow.png"
 import Crespos from "../../assets/imgs/projects/crespos.png"
+import ODS from "../../assets/imgs/projects/ods.png"
 
 
 
@@ -32,6 +33,16 @@ export default function Projects(){
         <S.Section>
             <S.Titulo>Projetos</S.Titulo>
             <S.SectionProjects>
+                <S.ProjectDiv>
+                    <S.Name>Agenda 2030</S.Name>
+                    <S.Img src={ODS} alt="aaa" />
+                    <S.ButtonsDiv>
+                        <S.DetalhesBtn onClick={Modal}>&#10140; Mais Detalhes</S.DetalhesBtn>
+                        <S.RepositoryLink href="https://github.com/KermitTheSapo/agenda-2030" target="_blank"><S.RepositoryBtn>Repository</S.RepositoryBtn></S.RepositoryLink>
+                        <S.DeployLink href="https://agenda-2030.vercel.app/" target="_blank"><S.DeployBtn>Deploy</S.DeployBtn></S.DeployLink>
+                    </S.ButtonsDiv>
+                    {open && <S.Paragraph>Um site com exemplos de Objetivos de Desenvolvimento Sustentável</S.Paragraph>}
+                </S.ProjectDiv>
                 <S.ProjectDiv>
                     <S.Name>Weekly Planning</S.Name>
                     <S.Img src={weeklyPlanning} alt="aaa" />
