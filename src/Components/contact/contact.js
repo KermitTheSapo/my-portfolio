@@ -1,9 +1,18 @@
-import React, {useRef} from "react"
+import React, {useRef, useState} from "react"
 import * as S from "./contactStyle.js"
 import Footer from "../footer/footer.js"
 import emailjs from '@emailjs/browser';
 
 export default function Contact(){
+    const [open, setOpen] = useState(false)
+
+    function Modal(){
+        setOpen(!false)
+    }
+    function ModalTrue(){
+        setOpen(!true)
+    }
+
     const form = useRef();
     function sendEmail(e) {
         e.preventDefault();
@@ -14,6 +23,17 @@ export default function Contact(){
             console.log(error.message);            
         });
         e.target.reset() 
+    }
+
+    function detectValue(){
+        const input = document.querySelector("input")
+        const textarea = document.querySelector("textarea")
+        if(input.value !== "" && textarea.value !== ""){
+            sendEmail()
+            ModalTrue()
+        } else{
+            Modal()
+        }
     }
 
     return(
@@ -30,7 +50,8 @@ export default function Contact(){
                     <S.Input name="email" type="email" placeholder="Digite seu Gmail"/>
                     <S.Label htmlFor="">Mensagem: </S.Label>
                     <S.Textarea name="message" id="" cols="30" rows="10" placeholder="Mensagem"></S.Textarea>
-                    <S.SendBtn>Send</S.SendBtn>
+                    <S.SendBtn onClick={() => {detectValue()}}>Send</S.SendBtn>
+                    {open && <p>AAAAAAAAAAA</p>}
                 </S.Form>
             </S.Div>
             <Footer />

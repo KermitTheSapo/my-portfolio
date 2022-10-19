@@ -14,7 +14,7 @@ export default function Home(){
                 <S.Job>Estagiário Front-end do Programa de Bolsas da Compass.uol</S.Job>
                 <S.Age>18 anos</S.Age>
                 <S.Localization>Paulista, Pernambuco, Brasil </S.Localization>
-                <a href={CV} download><S.Btn>Download CV</S.Btn></a>
+                <S.Link href={CV} download><S.Btn>Download CV</S.Btn></S.Link>
             </S.Information>
             <S.Imgs>
                 <S.MarioImg src={Mario} alt="" />

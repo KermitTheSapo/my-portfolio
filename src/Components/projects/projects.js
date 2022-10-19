@@ -64,16 +64,6 @@ export default function Projects(){
                     {open && <S.Paragraph>A website that promotes greater integration and centralization of functionality for employees at Compass who can safely access and enjoy the available functionalities, a login that can allow good usability to the user.</S.Paragraph>}
                 </S.ProjectDiv>
                 <S.ProjectDiv>
-                    <S.Name>Agenda 2030</S.Name>
-                    <S.Img src={weeklyPlanning} alt="aaa" />
-                    <S.ButtonsDiv>
-                        <S.DetalhesBtn onClick={Modal}>&#10140; Mais Detalhes</S.DetalhesBtn>
-                        <S.RepositoryLink href="https://github.com/KermitTheSapo/agenda-2030" target="_blank"><S.RepositoryBtn>Repository</S.RepositoryBtn></S.RepositoryLink>
-                        <S.DeployLink href="https://agenda-2030.vercel.app/" target="_blank"><S.DeployBtn>Deploy</S.DeployBtn></S.DeployLink>
-                    </S.ButtonsDiv>
-                    {open && <S.Paragraph>Agenda 2030</S.Paragraph>}
-                </S.ProjectDiv>
-                <S.ProjectDiv>
                     <S.Name>Recipes VNW</S.Name>
                     <S.Img src={Recipes} alt="aaa" />
                     <S.ButtonsDiv>
@@ -114,16 +104,6 @@ export default function Projects(){
                     {open && <S.Paragraph>A website with steps screen</S.Paragraph>}
                 </S.ProjectDiv>
                 <S.ProjectDiv>
-                    <S.Name>Api Dogs</S.Name>
-                    <S.Img src={weeklyPlanning} alt="aaa" />
-                    <S.ButtonsDiv>
-                        <S.DetalhesBtn onClick={Modal}>&#10140; Mais Detalhes</S.DetalhesBtn>
-                        <S.RepositoryLink href="https://github.com/KermitTheSapo/api-dogs" target="_blank"><S.RepositoryBtn>Repository</S.RepositoryBtn></S.RepositoryLink>
-                        <S.DeployLink href="https://api-dogs-vnw.netlify.app/" target="_blank"><S.DeployBtn>Deploy</S.DeployBtn></S.DeployLink>
-                    </S.ButtonsDiv>
-                    {open && <S.Paragraph>Api Dogs</S.Paragraph>}
-                </S.ProjectDiv>
-                <S.ProjectDiv>
                     <S.Name>To Do App</S.Name>
                     <S.Img src={TodoList} alt="aaa" />
                     <S.ButtonsDiv>
@@ -152,16 +132,6 @@ export default function Projects(){
                         <S.DeployLink href="https://api-filmes-vnw.netlify.app/" target="_blank"><S.DeployBtn>Deploy</S.DeployBtn></S.DeployLink>
                     </S.ButtonsDiv>
                     {open && <S.Paragraph>A website with api Movies</S.Paragraph>}
-                </S.ProjectDiv>
-                <S.ProjectDiv>
-                    <S.Name>ToDo-list-React</S.Name>
-                    <S.Img src={weeklyPlanning} alt="aaa" />
-                    <S.ButtonsDiv>
-                        <S.DetalhesBtn onClick={Modal}>&#10140; Mais Detalhes</S.DetalhesBtn>
-                        <S.RepositoryLink href="https://github.com/KermitTheSapo/ToDo-list-React" target="_blank"><S.RepositoryBtn>Repository</S.RepositoryBtn></S.RepositoryLink>
-                        <S.DeployLink href="https://todo-list-react-vnw.netlify.app/" target="_blank"><S.DeployBtn>Deploy</S.DeployBtn></S.DeployLink>
-                    </S.ButtonsDiv>
-                    {open && <S.Paragraph>Uma lista ToDo em react, podendo adicionar novas coisas a serem feitas, remover, não podendo enviar uma string invisível, limpando o input ao clicar em adicionar e podendo adicionar conteúdo apertando enter</S.Paragraph>}
                 </S.ProjectDiv>
                 <S.ProjectDiv>
                     <S.Name>calculadora React</S.Name>

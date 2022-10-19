@@ -81,7 +81,7 @@ export const Localization = styled.h3`
     color: white;
 `
 export const Btn = styled.button`
-    width: 15%;
+    width: 100%;
     background-color:#D9D9D9;
     border-radius: 10px;
     color: black;
@@ -91,4 +91,8 @@ export const Btn = styled.button`
     @media screen and (max-width: 500px){
         width: 50%;
     }
+`
+
+export const Link = styled.a`
+    width: 15%;
 `
