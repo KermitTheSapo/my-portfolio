@@ -49,6 +49,9 @@ export const DetalhesBtn = styled.button`
     border-radius: 10px;
     width: 25%;
     height: 100%;
+    @media screen and (max-width: 1440px) {
+        width: 35%;        
+    }
 `
 export const RepositoryBtn = styled.button`
     width: 100%;

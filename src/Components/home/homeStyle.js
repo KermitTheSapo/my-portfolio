@@ -42,6 +42,12 @@ export const Information = styled.div`
     justify-content: space-evenly;
     height: 30%;
     gap: 10px;
+    @media screen and (min-width: 1430px){
+        height: 60%;
+    }
+    @media screen and (max-width: 1430px){
+        height: 80%;
+    }
     @media screen and (max-width: 500px){
         height: 70%;
         width: 90%;
@@ -54,6 +60,10 @@ export const Imgs = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    @media screen and (min-width: 1430px){
+        height: 40vh;
+        width: 30%;
+    }
     @media screen and (max-width: 500px){
         width: 90%;
     }
@@ -61,6 +71,7 @@ export const Imgs = styled.div`
 
 export const MarioImg = styled.img`
     width: 100%;
+    height: auto;
 `
 
 export const Name = styled.h1`
@@ -89,10 +100,13 @@ export const Btn = styled.button`
     font-size: 1.5rem;
     cursor: pointer;  
     @media screen and (max-width: 500px){
-        width: 50%;
+        width: 100%;
     }
 `
 
 export const Link = styled.a`
-    width: 15%;
+    width: 18%; 
+    @media screen and (max-width: 1024px){
+        width: 40%;
+    }
 `

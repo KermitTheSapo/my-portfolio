@@ -15,10 +15,13 @@ export const ExperienceDiv = styled.div`
     align-items: center;
     justify-content: center;
     height: 83.5vh;
-    
+    @media screen and (max-width: 1440px){
+        height: 81vh;
+    }
     @media screen and (max-width: 500px){
         height: 81vh;
     }
+    
 `
 
 export const Experience = styled.div`
@@ -28,6 +31,9 @@ export const Experience = styled.div`
     width: 40%;
     height: 20vh;
     gap: 20px;
+    @media screen and (max-width: 1024px){
+        width: 70%;
+    }
     @media screen and (max-width: 500px){
         flex-direction: column;
         width: 90%;
